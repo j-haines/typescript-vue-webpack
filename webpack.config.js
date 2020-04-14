@@ -6,7 +6,7 @@ module.exports = {
   mode: 'development',
   entry: './static/src/main.ts',
   output: {
-    path: path.resolve(__dirname, 'staitc', './dist'),
+    path: path.resolve(__dirname, 'static', './dist'),
     publicPath: '/dist/',
     filename: 'build.js'
   },
